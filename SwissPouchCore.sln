@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51B638C2-44D2-4EB0-AF72-77CF77E9AF1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFE97E84-62CD-4571-8E76-0CBAB0BF3F1A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SwissPouchCore", "src\SwissPouchCore\SwissPouchCore.xproj", "{00203C55-02CB-4289-AB07-F13AE14ED7B2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SwissPouchCore.ViewGenerator", "src\SwissPouchCore.ViewGenerator\SwissPouchCore.ViewGenerator.xproj", "{8D0A8D7D-2B5C-44BF-B758-C0C2344D0B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00203C55-02CB-4289-AB07-F13AE14ED7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00203C55-02CB-4289-AB07-F13AE14ED7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00203C55-02CB-4289-AB07-F13AE14ED7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00203C55-02CB-4289-AB07-F13AE14ED7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0A8D7D-2B5C-44BF-B758-C0C2344D0B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0A8D7D-2B5C-44BF-B758-C0C2344D0B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0A8D7D-2B5C-44BF-B758-C0C2344D0B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0A8D7D-2B5C-44BF-B758-C0C2344D0B33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00203C55-02CB-4289-AB07-F13AE14ED7B2} = {51B638C2-44D2-4EB0-AF72-77CF77E9AF1F}
+		{8D0A8D7D-2B5C-44BF-B758-C0C2344D0B33} = {51B638C2-44D2-4EB0-AF72-77CF77E9AF1F}
+	EndGlobalSection
+EndGlobal

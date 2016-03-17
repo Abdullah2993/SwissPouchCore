@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Crypto - Swiss Pouch</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.min.css"/>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="index.html">SwissPouch</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Utilities</a></li>
+                    <li><a href="crypto.html">Crypto</a></li>   
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <owsv params= "title: 'Compute MD5 Hash', buttonLabel: 'Compute', link: 'api/Crypto/Md5', placeHolder: 'Enter the text here...' ,method: 'POST'" ></owsv>
+<owsv params= "title: 'Compute Sha1 Hash', buttonLabel: 'Compute', link: 'api/Crypto/Sha1', placeHolder: 'Enter the text here...' ,method: 'POST'" ></owsv>
+<owsv params= "title: 'Compute Sha256 Hash', buttonLabel: 'Compute', link: 'api/Crypto/Sha256', placeHolder: 'Enter the text here...' ,method: 'POST'" ></owsv>
+<owsv params= "title: 'Compute Sha384 Hash', buttonLabel: 'Compute', link: 'api/Crypto/Sha384', placeHolder: 'Enter the text here...' ,method: 'POST'" ></owsv>
+
+        <hr />
+        <footer class="text-center">
+            <p>&copy; 2016 - Swiss Pouch</p>
+        </footer>
+    </div>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/knockoutjs/dist/knockout.js"></script>	
+<script src="js/site.js"></script>
+</body>
+</html>
